@@ -4,19 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>track1 | Hexo</title>
+  <title>track2 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="千里之行，始于足下。在此记录下每一份学习心得，掌握的新技能。">
+  <meta name="description" content="力扣第一题暴力破解算法，hash待更新">
 <meta property="og:type" content="article">
-<meta property="og:title" content="track1">
-<meta property="og:url" content="http://example.com/2023/12/29/track1/index.html">
+<meta property="og:title" content="track2">
+<meta property="og:url" content="http://example.com/2024/01/03/track2/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="千里之行，始于足下。在此记录下每一份学习心得，掌握的新技能。">
+<meta property="og:description" content="力扣第一题暴力破解算法，hash待更新">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-12-29T03:45:07.000Z">
-<meta property="article:modified_time" content="2024-01-08T07:41:50.161Z">
+<meta property="article:published_time" content="2024-01-03T08:03:47.000Z">
+<meta property="article:modified_time" content="2024-01-08T08:05:15.014Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="feelings">
+<meta property="article:tag" content="experience">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -76,10 +76,10 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-track1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-track2" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2023/12/29/track1/" class="article-date">
-  <time class="dt-published" datetime="2023-12-29T03:45:07.000Z" itemprop="datePublished">2023-12-29</time>
+    <a href="/2024/01/03/track2/" class="article-date">
+  <time class="dt-published" datetime="2024-01-03T08:03:47.000Z" itemprop="datePublished">2024-01-03</time>
 </a>
     
   </div>
@@ -90,7 +90,7 @@
         
   
     <h1 class="p-name article-title" itemprop="headline name">
-      track1
+      track2
     </h1>
   
 
@@ -98,21 +98,20 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>千里之行，始于足下。<br>在此记录下每一份学习心得，掌握的新技能。</p>
+        <p>力扣第一题暴力破解算法，hash待更新</p>
 <span id="more"></span>
 
-<p>用github+hexo搭建个人博客</p>
-<p>1搭建博客<br>1）注册github账号<br>2）下载git、nodejs<br>3）验证安装成功，win+R打开命令提示符（cmd），输入git –version、node -v（若git显示不是内部命令则添加环境变量即可）<br>4）在任意位置右键运行git bash here 输入npm install hexo -g 安装hexo 输入hexo -v检测是否安装成功<br>5）安装hexo依赖，npm install –save hexo-deployer-git<br>6）在GitHub中新建仓库名称格式为“用户名&#x2F;用户名.github.io”,在GitHub中新建ssh密匙，标题随意，配置ssh密匙cd ~&#x2F;.ssh查看是否有ssh密匙；生成sshkey，输入ssh-keygen -t rsa -C “邮箱地址”后，连续三次回车即可,在C盘用户文件夹下生成了.ssh文件点进去用记事本打开id_rsa.pub,将里面内容复制到GitHub建立的ssh密匙标题下内容中。<br>用ssh -T <a href="mailto:&#x67;&#x69;&#116;&#x40;&#103;&#x69;&#116;&#x68;&#117;&#x62;&#46;&#x63;&#x6f;&#109;">&#x67;&#x69;&#116;&#x40;&#103;&#x69;&#116;&#x68;&#117;&#x62;&#46;&#x63;&#x6f;&#109;</a> 测试是否成功，输入yes<br>7）配置账号和密码<br>git config –global user.name “user.name”<br>git config –global user.email “user.email”<br>8）新建博客存放目录，里面必须为空，进入输入初始化命令hexo init,可看到目录下生成文件<br>9）hexo s   可在浏览器访问本地静态博客网页啦<br>10）编辑博客存放目录下_config.yml文件，添加<br>deploy：<br>type: git<br>repository: <a href="mailto:&#103;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x68;&#x75;&#98;&#46;&#x63;&#111;&#x6d;">&#103;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x68;&#x75;&#98;&#46;&#x63;&#111;&#x6d;</a>:用户名&#x2F;用户名.github.io.git<br>branch: main&#x2F;master（现在都是main）<br>11)hexo d部署到公网，此时很容易出现链接不上的问题，是现在计算机安全性更高不信任任何私自站点链接，输入git config –global http.sslVerify false	&#x2F;&#x2F;解决连接不上的问题，由于不信任任何站点<br>即可进入github连接认证阶段输入密码进行ssh链接即可在浏览器用”用户名.github.io”访问站点</p>
-<p>2写博客<br>hexo new ‘标题’<br>在source&#x2F;post文件夹中找到以该标题为文件名的md文件记事本打开写文件，字符格式使用UTF-8<br>hexo g<br>hexo d</p>
+<p>#define _CRT_SECURE_NO_WARNINGS	&#x2F;&#x2F;解决新版VS scanf警告问题<br>#include &lt;stdio.h&gt;<br>#include &lt;malloc.h&gt;<br>#include &lt;stdlib.h&gt;<br>&#x2F;&#x2F;暴力破解算法<br>int* twosum(int* nums, int numsSize, int target, int* returnSize)<br>{<br>    for (int i &#x3D; 0; i &lt; numsSize; i++)					&#x2F;&#x2F;俩for走天下<br>    {<br>        for (int j &#x3D; i + 1; j &lt; numsSize; j++)<br>        {<br>            if (target &#x3D;&#x3D; nums[i] + nums[j])<br>            {<br>                int* ret &#x3D; malloc(sizeof(int) * 2);<br>                ret[0] &#x3D; i;<br>                ret[1] &#x3D; j;<br>                *returnSize &#x3D; 2;<br>                return ret;<br>            }<br>        }<br>    }<br>    *returnSize &#x3D; 0;<br>    return NULL;<br>}</p>
+<p>int main()<br>{<br>    int* nums &#x3D; NULL, * ret;<br>    int returnSize;<br>    int numsSize;								&#x2F;&#x2F;数组总元素个数<br>    int target;								&#x2F;&#x2F;目标值<br>    printf(“请输入整数数组元素个数：\n”);<br>    scanf(“%d”, &amp;numsSize);<br>    nums &#x3D; (int*)malloc(sizeof(int) * numsSize);				&#x2F;&#x2F;分配空间<br>    printf(“请输入数据：\n”);<br>    for (int i &#x3D; 0; i &lt; numsSize; i++)					&#x2F;&#x2F;循环输入数据<br>        {<br>            scanf(“%d”, &amp;nums[i]);<br>        }<br>    printf(“请输入目标值：\n”);<br>    scanf(“%d”, &amp;target);<br>    ret &#x3D; twosum(nums, numsSize, target, &amp;returnSize);<br>    if (ret)<br>        {<br>            printf(“(%d,%d)”,ret[0], ret[1]);<br>            return 1;<br>        }<br>    else return 0;<br>}</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/12/29/track1/" data-id="clqq7o45u000094v7ehgfb0zh" data-title="track1" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2024/01/03/track2/" data-id="clr4n2c6h0000bov7a3lphucq" data-title="track2" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/feelings/" rel="tag">feelings</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/experience/" rel="tag">experience</a></li></ul>
 
     </footer>
   </div>
@@ -120,15 +119,20 @@
     
 <nav id="article-nav">
   
-    <a href="/2024/01/03/track2/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2024/01/08/track3/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          track2
+          track3
         
       </div>
     </a>
   
+  
+    <a href="/2023/12/29/track1/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">track1</div>
+    </a>
   
 </nav>
 
